@@ -2,9 +2,11 @@
 
 An Omarchy theme celebrating Starship's flight to orbit: white text on lightly frosted liquid glass over the launch, by day or by night, with the Raptor plume as the one colour that runs through it all.
 
-![Starship To Orbit desktop preview](preview.png)
+![Starship To Orbit by day](preview.png)
 
-The [cliamp](https://github.com/bjarneo/cliamp) music visualizer, [Flea](https://github.com/ejuro/flea), and Neovim using Starship To Orbit with the full glass effect.
+![Starship To Orbit by night](preview-night.png)
+
+By day and by night: the [cliamp](https://github.com/bjarneo/cliamp) music visualizer, [Flea](https://github.com/ejuro/flea), Neovim and, at night, btop and Claude Code, using Starship To Orbit with the full glass effect.
 
 ## At a glance
 
