@@ -109,13 +109,11 @@ cp ~/.config/omarchy/themes/starship-to-orbit/extras/cliamp/starship-to-orbit.to
 cliamp theme starship-to-orbit
 ```
 
-## Customization and compatibility
+## Customization
 
-`colors.toml` supplies the palette and the plume window edge. Omarchy generates terminal and supported application configurations from it. `shell.toml` styles the shell surfaces as glass, `btop.theme` draws the plume graphs, `gtk.css` styles GTK applications on setups that link GTK to the current theme, and `hyprland.lua` adds the optional glass effect.
+The colours live in `colors.toml`. `shell.toml`, `btop.theme` and `gtk.css` carry copies, and so do the terminal configs, `hyprland.lua` and `neovim.lua` used by the full glass effect; change them together, then run `omarchy theme set starship-to-orbit`.
 
-The terminal configs (`ghostty.conf`, `alacritty.toml`, `kitty.conf`, `foot.ini`) and `neovim.lua` are Omarchy's generated files plus the glass opacity and plume syntax. After changing `colors.toml`, run [`tools/make-terminals.sh`](tools/make-terminals.sh) to regenerate the terminal configs, update the other files by hand, then reapply the theme.
-
-Starship To Orbit contains no application patches or install hooks.
+The theme contains no application patches or install hooks.
 
 ## License
 
