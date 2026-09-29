@@ -1,0 +1,51 @@
+[colors.primary]
+background = "#1c1c1e"
+foreground = "#f5f5f7"
+
+[colors.cursor]
+text = "#1c1c1e"
+cursor = "#ffffff"
+
+[colors.vi_mode_cursor]
+text = "#1c1c1e"
+cursor = "#ffffff"
+
+[colors.search.matches]
+foreground = "#1c1c1e"
+background = "#f2eee8"
+
+[colors.search.focused_match]
+foreground = "#1c1c1e"
+background = "#ff5f4a"
+
+[colors.footer_bar]
+foreground = "#1c1c1e"
+background = "#f5f5f7"
+
+[colors.selection]
+text = "#ffffff"
+background = "#3a3a3c"
+
+[colors.normal]
+black = "#1c1c1e"
+red = "#ff5f4a"
+green = "#a8e6c1"
+yellow = "#f2eee8"
+blue = "#c3ccd6"
+magenta = "#ffffff"
+cyan = "#dfe9f2"
+white = "#f5f5f7"
+
+[colors.bright]
+black = "#636366"
+red = "#ff8373"
+green = "#c4efd5"
+yellow = "#ffffff"
+blue = "#dde3ea"
+magenta = "#ffffff"
+cyan = "#f0f5fa"
+white = "#ffffff"
+
+# liquid glass: only the background is translucent, text stays opaque
+[window]
+opacity = 0.34

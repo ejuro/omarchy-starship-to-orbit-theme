@@ -1,0 +1,9 @@
+# Starship To Orbit: white on glass, with the visualizer as a Raptor plume:
+# white-hot at the base, engine-flame orange through the middle, red-orange at the tips.
+bg = "#1c1c1e"
+accent = "#ff9f0a"
+bright_fg = "#ffffff"
+fg = "#c3ccd6"
+green = "#fff3dc"
+yellow = "#ff9f0a"
+red = "#ff4f1f"

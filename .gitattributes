@@ -1,0 +1,11 @@
+* text=auto
+*.png binary
+*.toml text eol=lf
+*.lua text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.jpg binary
+*.conf text eol=lf
+*.ini text eol=lf
+*.sh text eol=lf
+*.theme text eol=lf

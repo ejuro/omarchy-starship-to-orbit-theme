@@ -1,0 +1,137 @@
+# Starship To Orbit: Omarchy shell surfaces as liquid glass: translucent neutral panes edged by
+# the Raptor plume, with engine-flame highlights for what is selected.
+# Full replacement for the generated shell.toml (same keys as default/themed/shell.toml.tpl).
+
+[bar]
+background       = "#1c1c1e"
+background-alpha = 0.35
+text             = "#ffffff"
+active           = "#ff9f0a"
+scale-with-font  = true
+size-horizontal  = 28
+size-vertical    = 30
+
+[hyprland]
+active-border            = "rgba(fff3dcee) rgba(ff9f0add) rgba(ff4f1fcc) 90deg"
+active-border-foreground = "rgba(fff3dccc) rgba(ff9f0abb) rgba(ff4f1faa) 90deg"
+
+[controls]
+# Glass chips: a faint white fill and rim at rest, brighter on hover and focus, and an
+# engine-flame pill for the current item (e.g. the active workspace).
+normal-color        = "#f5f5f7"
+normal-fill-alpha   = 0.06
+normal-border       = "#ffffff"
+normal-border-width = 1
+normal-border-alpha = 0.18
+
+hover-cursor-color        = "#ffffff"
+hover-cursor-fill-alpha   = 0.14
+hover-cursor-border       = "#ffffff"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.4
+
+focus-color        = "#ffffff"
+focus-fill-alpha   = 0.14
+focus-border       = "#ffffff"
+focus-border-width = 1
+focus-border-alpha = 0.4
+
+selected-color        = "#ff9f0a"
+selected-fill-alpha   = 0.22
+selected-border       = "#ff9f0a"
+selected-border-width = 1
+selected-border-alpha = 0.9
+
+pressed-fill-alpha   = 0.3
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background       = "#1c1c1e"
+background-alpha = 0.5
+text             = "#f5f5f7"
+border           = "hyprland.active-border-foreground"
+border-alpha     = 1.0
+
+[tooltip]
+background       = "#1c1c1e"
+background-alpha = 0.7
+text             = "#f5f5f7"
+border           = "hyprland.active-border-foreground"
+border-alpha     = 0.8
+
+[notifications]
+background       = "#1c1c1e"
+background-alpha = 0.48
+text             = "#f5f5f7"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+countdown        = "#ff9f0a"
+
+[launcher]
+background                = "#1c1c1e"
+background-alpha          = 0.42
+text                      = "#f5f5f7"
+border                    = "hyprland.active-border"
+border-alpha              = 1.0
+scrim                     = "#0e0e10"
+scrim-alpha               = 0.2
+selected-background       = "#ff9f0a"
+selected-background-alpha = 0.2
+selected-text             = "#fff3dc"
+selected-border           = "#ff9f0a"
+selected-border-alpha     = 0.55
+
+[menu]
+background                = "#1c1c1e"
+background-alpha          = 0.48
+text                      = "#f5f5f7"
+border                    = "hyprland.active-border"
+border-alpha              = 1.0
+scrim                     = "#0e0e10"
+scrim-alpha               = 0.2
+selected-background       = "#ff9f0a"
+selected-background-alpha = 0.2
+selected-text             = "#fff3dc"
+selected-border           = "#ff9f0a"
+selected-border-alpha     = 0.55
+
+[polkit]
+background       = "#1c1c1e"
+background-alpha = 0.6
+text             = "#f5f5f7"
+text-error       = "#ff5f4a"
+border           = "hyprland.active-border"
+border-error     = "#ff5f4a"
+border-alpha     = 1.0
+scrim            = "#0e0e10"
+scrim-alpha      = 0.35
+accent           = "#ff9f0a"
+
+[lock]
+background       = "#1c1c1e"
+background-alpha = 0.32
+text             = "#f5f5f7"
+placeholder      = "#98989d"
+text-error       = "#ff5f4a"
+border           = "hyprland.active-border-foreground"
+border-active    = "hyprland.active-border"
+border-error     = "#ff5f4a"
+border-alpha     = 1.0
+selection        = "#ff9f0a"
+selection-alpha  = 0.3
+
+[image-picker]
+scrim                   = "#0e0e10"
+scrim-alpha             = 0.35
+text                    = "#f5f5f7"
+selected-border         = "#ff9f0a"
+selected-border-alpha   = 1.0
+unselected-border       = "#ffffff"
+unselected-border-alpha = 0.18
