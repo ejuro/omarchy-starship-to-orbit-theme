@@ -1,6 +1,6 @@
 # Starship To Orbit
 
-An Omarchy theme celebrating Starship's flight to orbit: white text on lightly frosted liquid glass over the launch, with the Raptor plume as the one colour that runs through it all.
+An Omarchy theme celebrating Starship's flight to orbit: white text on lightly frosted liquid glass over the launch, by day or by night, with the Raptor plume as the one colour that runs through it all.
 
 ![Starship To Orbit desktop preview](preview.png)
 
@@ -14,7 +14,7 @@ The [cliamp](https://github.com/bjarneo/cliamp) music visualizer, [Flea](https:/
 - Plume-edged windows.
 - A translucent glass shell: bar, launcher, menus, notifications and lock screen.
 - btop with every graph drawn as the plume.
-- GTK colours, and two SpaceX launch backgrounds.
+- GTK colours, and four launch backgrounds: two by day, two by night.
 
 **Added by the optional [full glass effect](#full-glass-effect-optional)** (one extra step):
 
@@ -31,12 +31,16 @@ The [cliamp](https://github.com/bjarneo/cliamp) music visualizer, [Flea](https:/
 
 ## Backgrounds
 
-Two photographs of Starship launches. Omarchy starts with the first.
+Two SpaceX launch photographs, each by day and by night. Omarchy starts with the first; cycle through them with the background switcher (`Super + Ctrl + Space`) or `omarchy theme bg next`.
 
 | | |
 | --- | --- |
 | [![Liftoff at dusk](backgrounds/1-liftoff.jpg)](backgrounds/1-liftoff.jpg) | [![Starbase from above](backgrounds/2-starbase.jpg)](backgrounds/2-starbase.jpg) |
 | **Liftoff**, 3732 × 2099. Photo: SpaceX. Starship clearing the tower at dusk between walls of exhaust. | **Starbase**, 4096 × 2304. Photo: SpaceX. The launch from above, over the pad and the Gulf. The top edge is gently shaded so a transparent bar keeps white text. |
+| [![Liftoff at night](backgrounds/3-liftoff-night.jpg)](backgrounds/3-liftoff-night.jpg) | [![Starbase at night](backgrounds/4-starbase-night.jpg)](backgrounds/4-starbase-night.jpg) |
+| **Liftoff, night.** The same launch relit at night: the plume is the only light and the exhaust clouds glow from it. | **Starbase, night.** The pad and the water reflect the flame. |
+
+The night versions are AI-edited from the photographs above, not photographs of real night launches (see [third-party notices](THIRD_PARTY_NOTICES.md)).
 
 ## Install
 
@@ -119,4 +123,4 @@ The theme contains no application patches or install hooks.
 
 [MIT](LICENSE). Copyright (c) 2026 Erik Johansson.
 
-The background photographs are not covered by the MIT license; see [third-party notices](THIRD_PARTY_NOTICES.md), which also records attribution for adapted upstream portions.
+The background images are not covered by the MIT license; see [third-party notices](THIRD_PARTY_NOTICES.md), which also records attribution for adapted upstream portions.

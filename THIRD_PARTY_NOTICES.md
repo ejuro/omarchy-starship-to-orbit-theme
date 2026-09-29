@@ -1,8 +1,12 @@
 # Third-party notices
 
-## Background photographs
+## Background images
 
-`backgrounds/1-liftoff.jpg` and `backgrounds/2-starbase.jpg` are photographs of Starship launches by SpaceX, published on SpaceX's account on X ([@SpaceX](https://x.com/SpaceX)). SpaceX retains all rights to them; they are not covered by this theme's MIT license. `2-starbase.jpg` has its top edge slightly darkened so a transparent Omarchy bar stays legible.
+`backgrounds/1-liftoff.jpg` and `backgrounds/2-starbase.jpg` are photographs of Starship launches by SpaceX, published on SpaceX's account on X ([@SpaceX](https://x.com/SpaceX)). `2-starbase.jpg` has its top edge slightly darkened so a transparent Omarchy bar stays legible.
+
+`backgrounds/3-liftoff-night.jpg` and `backgrounds/4-starbase-night.jpg` are AI-edited night versions of those two photographs: they were relit as night scenes with an image-generation model and upscaled. They are not photographs of real night launches.
+
+SpaceX retains all rights to the original photographs. None of the background images are covered by this theme's MIT license.
 
 ## Omarchy
 
