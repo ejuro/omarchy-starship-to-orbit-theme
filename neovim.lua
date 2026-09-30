@@ -37,7 +37,7 @@ return {
         dark_fg = "#98989d",
         light_fg = "#fbfbfd",
         bright_fg = "#ffffff",
-        muted = "#636366",
+        muted = "#8e8e93",
 
         red = "#ff5f4a",
         yellow = "#f2eee8",
