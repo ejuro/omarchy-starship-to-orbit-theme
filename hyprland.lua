@@ -62,12 +62,13 @@ hl.config({
   },
 })
 
--- Apps without their own background opacity become glass panes as a whole; terminals are left to
--- their own (text-preserving) background opacity.
+-- Apps without their own background opacity turn translucent as a whole, text included, so they
+-- keep just a hint of glass and their text stays crisp. Terminals are left to their own
+-- (text-preserving) background opacity.
 hl.window_rule({
   match = { class = "^(omawrite|com.thisisgm.flea)$" },
   tag = "-default-opacity",
-  opacity = "0.52 override 0.46 override",
+  opacity = "0.9 override 0.85 override",
 })
 
 -- The Omarchy shell's own surfaces (bar, launcher and menus, notifications, OSD, polkit, pickers)
