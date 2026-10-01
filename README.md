@@ -16,7 +16,7 @@ By day and by night: the [cliamp](https://github.com/bjarneo/cliamp) music visua
 - Plume-edged windows.
 - A translucent glass shell: bar, launcher, menus, notifications and lock screen.
 - btop with every graph drawn as the plume.
-- GTK colours, and four launch backgrounds: two by day, two by night.
+- GTK colours, and six launch backgrounds: two by day, two by night, two in the morning.
 
 **Added by the optional [full glass effect](#full-glass-effect-optional)** (one extra step):
 
@@ -33,7 +33,7 @@ By day and by night: the [cliamp](https://github.com/bjarneo/cliamp) music visua
 
 ## Backgrounds
 
-Two SpaceX launch photographs, each by day and by night. Omarchy starts with the first; cycle through them with the background switcher (`Super + Ctrl + Space`) or `omarchy theme bg next`.
+Two SpaceX launch photographs, each by day and by night, and two more from a morning launch. Omarchy starts with the first; cycle through them with the background switcher (`Super + Ctrl + Space`) or `omarchy theme bg next`.
 
 | | |
 | --- | --- |
@@ -41,6 +41,8 @@ Two SpaceX launch photographs, each by day and by night. Omarchy starts with the
 | **Liftoff**, 3732 × 2099. Photo: SpaceX. Starship clearing the tower at dusk between walls of exhaust. | **Starbase**, 4096 × 2304. Photo: SpaceX. The launch from above, over the pad and the Gulf. The top edge is gently shaded so a transparent bar keeps white text. |
 | [![Liftoff at night](backgrounds/3-liftoff-night.jpg)](backgrounds/3-liftoff-night.jpg) | [![Starbase at night](backgrounds/4-starbase-night.jpg)](backgrounds/4-starbase-night.jpg) |
 | **Liftoff, night.** The same launch relit at night: the plume is the only light and the exhaust clouds glow from it. | **Starbase, night.** The pad and the water reflect the flame. |
+| [![Morning liftoff](backgrounds/5-morning-liftoff.jpg)](backgrounds/5-morning-liftoff.jpg) | [![The pad at sunrise](backgrounds/6-morning-pad.jpg)](backgrounds/6-morning-pad.jpg) |
+| **Morning liftoff**, 3840 × 2071. Photo: SpaceX. Starship lifting off into a pale morning sky, the exhaust lit pink and orange from below. | **Morning pad**, 3840 × 2160. Photo: SpaceX. The stack venting on the pad at sunrise, with the Gulf behind. The top edge is gently shaded so a transparent bar keeps white text. |
 
 The night versions are AI-edited from the photographs above, not photographs of real night launches (see [third-party notices](THIRD_PARTY_NOTICES.md)).
 
