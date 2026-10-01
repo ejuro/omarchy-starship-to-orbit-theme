@@ -79,6 +79,24 @@ Ghostty frosts the glass. Foot's translucent background is not blurred by Hyprla
 omarchy default terminal ghostty
 ```
 
+### Update
+
+Without the full glass effect (installed with `omarchy theme install` only):
+
+```bash
+omarchy theme update
+omarchy theme set starship-to-orbit
+```
+
+With the full glass effect, `omarchy theme update` skips your copy (it doesn't update symlinked themes), so pull it yourself:
+
+```bash
+git -C ~/.local/share/omarchy-starship-to-orbit-theme pull
+omarchy theme set starship-to-orbit
+```
+
+Setting the theme again is what brings in new backgrounds and changes; it also resets the wallpaper to the first background.
+
 ### Recommended font (optional)
 
 The theme was made with Martian Mono, a wide, geometric typeface with a mission-control feel:
