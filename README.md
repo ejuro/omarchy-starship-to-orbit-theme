@@ -132,8 +132,9 @@ In Neovim, keywords are engine flame, function names white-hot, strings amber `#
 ```bash
 mkdir -p ~/.config/cliamp/themes
 cp ~/.config/omarchy/themes/starship-to-orbit/extras/cliamp/starship-to-orbit.toml ~/.config/cliamp/themes/
-cliamp theme starship-to-orbit
 ```
+
+Then press `t` in cliamp and choose `starship-to-orbit`. cliamp keeps a theme you choose there when you change Omarchy themes. To go back to your terminal's colours, which follow the Omarchy theme, remove the `theme` line from `~/.config/cliamp/config.toml`.
 
 ## Customization
 
